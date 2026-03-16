@@ -1,0 +1,50 @@
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+    background-image: url("imagenes/sapocolorquesodepizza.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.calculadora{
+    background-image: url("imagenes/twoass.jpg");
+    padding:20px;
+    border-radius:60px;
+    background-position: center;
+    background-size: cover;
+}
+
+#pantalla{
+    width:100%;
+    height:50px;
+    font-size:24px;
+    margin-bottom:10px;
+    text-align:right;
+}
+
+.botones{
+    display:grid;
+    grid-template-columns:repeat(4,60px);
+    gap:10px;
+}
+
+button{
+    height:60px;
+    color: white;
+    font-size:20px;
+    border: 10px unset white    ;
+    cursor:pointer;
+    background: transparent;
+}
+
+.negro{
+    color: black;
+}
